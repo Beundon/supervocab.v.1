@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="40" fill="linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)" />
+  <defs>
+    <linearGradient id="bg-grad-192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="accent-grad-192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="192" height="192" rx="42" fill="url(#bg-grad-192)" />
+  
+  <g transform="translate(26, 26)">
+    <path d="M10,95 C40,75 65,90 70,95 C75,90 100,75 130,95 L130,45 C100,25 75,40 70,45 C65,40 40,25 10,45 Z" fill="#ffffff" />
+    <path d="M15,90 C42,73 65,85 70,88 C75,85 98,73 125,90 L125,48 C98,31 75,43 70,45 C65,43 42,31 15,48 Z" fill="#f8fafc" />
+    
+    <polygon points="70,15 125,35 70,55 15,35" fill="url(#accent-grad-192)" />
+    <polygon points="70,20 115,35 70,50 25,35" fill="#67e8f9" opacity="0.6" />
+    
+    <path d="M125,35 L132,55 L130,70" stroke="#67e8f9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    
+    <path d="M75,70 C75,56 92,45 112,45 C132,45 148,56 148,70 C148,78 141,86 130,91 L132,102 L120,95 C117,95 115,95 112,95 C92,95 75,84 75,70 Z" fill="#ffffff" filter="drop-shadow(0px 4px 6px rgba(0,0,0,0.15))" />
+    
+    <text x="112" y="79" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="26" fill="#1e40af" text-anchor="middle">A</text>
+  </g>
+</svg>

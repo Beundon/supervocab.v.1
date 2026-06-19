@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-grad-512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    
+    <linearGradient id="accent-grad-512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <rect width="512" height="512" rx="112" fill="url(#bg-grad-512)" />
+  
+  <g transform="translate(66, 66)" filter="url(#shadow)">
+    
+    <path d="M30,260 C110,200 175,240 190,250 C205,240 270,200 350,260 L350,120 C270,60 205,100 190,110 C175,100 110,60 30,120 Z" fill="#ffffff" />
+    <path d="M42,245 C115,195 175,225 190,232 C205,225 265,195 338,245 L338,128 C265,78 205,108 190,112 C175,108 115,78 42,128 Z" fill="#f1f5f9" />
+    
+    <path d="M35,265 C112,207 175,245 190,255 L190,242" stroke="#cbd5e1" stroke-width="4" fill="none" />
+    <path d="M345,265 C268,207 205,245 190,255 L190,242" stroke="#cbd5e1" stroke-width="4" fill="none" />
+
+    <polygon points="190,30 340,85 190,140 40,85" fill="url(#accent-grad-512)" />
+    <polygon points="190,45 315,85 190,125 65,85" fill="#22d3ee" opacity="0.5" />
+    
+    <path d="M98,112 L98,160 C98,190 135,205 190,205 C245,205 282,190 282,160 L282,112" fill="#0891b2" opacity="0.85"/>
+    
+    <path d="M340,85 L365,140 L358,190" stroke="#67e8f9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="358" cy="195" r="7" fill="#67e8f9" />
+
+    <g transform="translate(190, 160)">
+      <path d="M20,60 C20,26 60,0 110,0 C160,0 200,26 200,60 C200,79 184,96 158,107 L163,135 L132,118 C125,119 117,120 110,120 C60,120 20,94 20,60 Z" fill="#ffffff" />
+      <text x="110" y="82" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="68" fill="#1d4ed8" text-anchor="middle">A</text>
+    </g>
+    
+  </g>
+</svg>
